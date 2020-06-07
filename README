@@ -1,0 +1,62 @@
+yonatan gal
+jhonygal@gmail.com
+
+=============================
+=  README for ex7: Recursion  =
+=============================
+
+==================
+=  Description:  =
+==================
+
+in this exercise we practiced the use of recursion in programming.
+we wrote the following functions:
+
+1. print_to_n(n): this function prints all positive integers up to n.
+
+2. print_reversed(n): this function prints all positive integers, from n
+   to 1.
+
+3. is_prime(n): this function checks if a given number n is a prime number.
+   i used an inner function called has_divisor_smaller_than(n, i), which
+   checks recursively if n has any divisor, smaller than i.
+
+4. exp_n_x(n, x): this function receives a natural number n and a float number
+   x and returns the sum of the function exp powered by x. i used an auxiliary
+   function which calculates the factorial of n for it.
+
+5. play_hanoi(hanoi, n, src, dest, temp): this function solves the famous
+   riddle of the hanoi towers.
+
+6. print_sequences(char_list, n): this function receives a list of chars and a
+   positive number n and prints every possible sequence that we can create based
+   with the chars on the list, and we can use every char as many times as we
+   want. (as long as it's not over n times, of course). i used an auxiliary
+   function which creates every possible sequence in a recursive way.
+
+7. print_no_repetition_sequences(char_list, n): same as the previous function,
+   but this time each char can appear in the sequence only one time,
+   so basically, we print all the permutations of the char_list.
+
+8. parentheses(n, valid_option="", open_bracket=0): this function receives a
+   positive integer n, and returns every legal sequence of parentheses.
+
+9. up_and_right(n, k, combination=''): this function receives positive numbers
+   n and k, which represent 'x' and 'y' positions in a Coordinate system, and
+   returns every possible way of getting to this position.
+
+10. flood_fill(image, start): this function receives a matrix (image) and a
+    position in the matrix (start), and based on them change the matrix.
+
+
+
+
+
+
+
+
+
+
+
+
+
